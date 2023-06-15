@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="component">
+      <div class="component__text">
+        <h1 class="component__title">Learn to code by watching others</h1>
+        <p class="component__info">
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but
+          understanding how developers think is invaluable.
+        </p>
+      </div>
+      <div class="component__form">
+        <a class="component__button"><span>Try it free 7 days</span> then $20/mo. thereafter</a>
+        <form action="/" class="form">
+          <div class="input-container">
+            <input type="text" class="form__name" placeholder="First Name" required>
+            <span class="icon">
+              <i class="fas fa-times-circle"></i>
+            </span>
+            <div class="invalid-message">First Name cannot be empty</div>
+          </div>
+          <div class="input-container">
+            <input type="text" class="form__name" placeholder="Last Name" required>
+            <span class="icon">
+              <i class="fas fa-times-circle"></i>
+            </span>
+            <div class="invalid-message">Last Name cannot be empty</div>
+          </div>
+          <div class="input-container">
+            <input type="email" class="form__name" placeholder="Email Address" required>
+            <span class="icon">
+              <i class="fas fa-times-circle"></i>
+            </span>
+            <div class="invalid-message">Looks like this is not an email</div>
+          </div>
+          <div class="input-container">
+            <input type="password" class="form__name" placeholder="Password" required>
+            <span class="icon">
+              <i class="fas fa-times-circle"></i>
+            </span>
+            <div class="invalid-message">Password cannot be empty</div>
+          </div>
+          <button class="form__button">CLAIM YOUR FREE TRIAL</button>
+          <p class="component__terms">
+            By clicking the button, you are agreeing to our <a href="#" class="terms__link">Terms and Services</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Anton Morozov</a>.
+    </p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
